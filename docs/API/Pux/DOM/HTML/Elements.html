@@ -1,0 +1,830 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Pux.DOM.HTML.Elements | purescript-pux</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../../../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../../../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../../../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../../../../docs/API/Pux/Render/DOM.html" />
+    
+    
+    <link rel="prev" href="../../../../../docs/API/Pux/DOM/HTML/Attributes.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="7.4"
+        data-chapter-title="Pux.DOM.HTML.Elements"
+        data-filepath="docs/API/Pux/DOM/HTML/Elements.md"
+        data-basepath="../../../../.."
+        data-revision="Fri Feb 05 2016 09:57:50 GMT-0800 (PST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../../../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/Installation.html">
+            
+                
+                    <a href="../../../../../docs/Installation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Installation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/Views.html">
+            
+                
+                    <a href="../../../../../docs/Views.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Views
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/actions/index.html">
+            
+                
+                    <a href="../../../../../docs/actions/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Actions
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/actions/SendingActions.html">
+            
+                
+                    <a href="../../../../../docs/actions/SendingActions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Sending Actions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/actions/UpdatingState.html">
+            
+                
+                    <a href="../../../../../docs/actions/UpdatingState.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Updating State
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/Routing.html">
+            
+                
+                    <a href="../../../../../docs/Routing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Routing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/Rendering.html">
+            
+                
+                    <a href="../../../../../docs/Rendering.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Rendering
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/examples/index.html">
+            
+                
+                    <a href="../../../../../docs/examples/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Examples
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/examples/basic.html">
+            
+                
+                    <a href="../../../../../docs/examples/basic.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Basic counter
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/examples/ajax.html">
+            
+                
+                    <a href="../../../../../docs/examples/ajax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        AJAX
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="docs/examples/routing.html">
+            
+                
+                    <a href="../../../../../docs/examples/routing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        Routing
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="docs/API/Pux.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        API Reference
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docs/API/Pux/App.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/App.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        Pux.App
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docs/API/Pux/DOM.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/DOM.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        Pux.DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="docs/API/Pux/DOM/HTML/Attributes.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/DOM/HTML/Attributes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        Pux.DOM.HTML.Attributes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="7.4" data-path="docs/API/Pux/DOM/HTML/Elements.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/DOM/HTML/Elements.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        Pux.DOM.HTML.Elements
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="docs/API/Pux/Render/DOM.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/Render/DOM.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                        Pux.Render.DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="docs/API/Pux/Render/HTML.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/Render/HTML.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.6.</b>
+                        
+                        Pux.Render.HTML
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="docs/API/Pux/Router.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/Router.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.7.</b>
+                        
+                        Pux.Router
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../../../" >purescript-pux</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="module-puxdomhtmlelements">Module Pux.DOM.HTML.Elements</h2>
+<p>Example:</p>
+<pre><code class="lang-haskell"><span class="token import_statement"><span class="token keyword">import</span> Pux</span><span class="token import_statement">
+<span class="token keyword">import</span> Pux.DOM.HTML.Elements</span> <span class="token punctuation">(</span><span class="token builtin">div</span><span class="token punctuation">,</span> <span class="token hvariable">p</span><span class="token punctuation">,</span> <span class="token hvariable">button</span><span class="token punctuation">,</span> <span class="token hvariable">text</span><span class="token punctuation">)</span><span class="token import_statement">
+<span class="token keyword">import</span> Pux.DOM.HTML.Attributes</span> <span class="token punctuation">(</span><span class="token hvariable">onClick</span><span class="token punctuation">,</span> <span class="token hvariable">send</span><span class="token punctuation">)</span>
+
+<span class="token hvariable">view</span> <span class="token operator">::</span> <span class="token constant">State</span> <span class="token operator">-&gt;</span> <span class="token constant">VirtualDOM</span>
+<span class="token hvariable">view</span> <span class="token hvariable">state</span> <span class="token operator">=</span> <span class="token builtin">div</span> <span class="token operator">$</span> <span class="token keyword">do</span>
+  <span class="token hvariable">p</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token punctuation">(</span><span class="token string">&quot;Counter: &quot;</span> <span class="token operator">++</span> <span class="token builtin">show</span> <span class="token hvariable">state</span><span class="token punctuation">.</span><span class="token hvariable">counter</span><span class="token punctuation">)</span>
+  <span class="token hvariable">p</span> <span class="token operator">$</span> <span class="token keyword">do</span>
+    <span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Increment</span><span class="token punctuation">)</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token string">&quot;Increment&quot;</span>
+    <span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Decrement</span><span class="token punctuation">)</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token string">&quot;Decrement&quot;</span>
+</code></pre>
+<h4 id="parent"><code>parent</code></h4>
+<pre><code class="lang-purescript">parent :: String -&gt; VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="leaf"><code>leaf</code></h4>
+<pre><code class="lang-purescript">leaf :: String -&gt; VirtualDOM
+</code></pre>
+<h4 id="text"><code>text</code></h4>
+<pre><code class="lang-purescript">text :: String -&gt; VirtualDOM
+</code></pre>
+<h4 id="a"><code>a</code></h4>
+<pre><code class="lang-purescript">a :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="abbr"><code>abbr</code></h4>
+<pre><code class="lang-purescript">abbr :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="address"><code>address</code></h4>
+<pre><code class="lang-purescript">address :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="area"><code>area</code></h4>
+<pre><code class="lang-purescript">area :: VirtualDOM
+</code></pre>
+<h4 id="article"><code>article</code></h4>
+<pre><code class="lang-purescript">article :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="aside"><code>aside</code></h4>
+<pre><code class="lang-purescript">aside :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="audio"><code>audio</code></h4>
+<pre><code class="lang-purescript">audio :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="b"><code>b</code></h4>
+<pre><code class="lang-purescript">b :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="base"><code>base</code></h4>
+<pre><code class="lang-purescript">base :: VirtualDOM
+</code></pre>
+<h4 id="bdi"><code>bdi</code></h4>
+<pre><code class="lang-purescript">bdi :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="bdo"><code>bdo</code></h4>
+<pre><code class="lang-purescript">bdo :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="big"><code>big</code></h4>
+<pre><code class="lang-purescript">big :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="blockquote"><code>blockquote</code></h4>
+<pre><code class="lang-purescript">blockquote :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="body"><code>body</code></h4>
+<pre><code class="lang-purescript">body :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="br"><code>br</code></h4>
+<pre><code class="lang-purescript">br :: VirtualDOM
+</code></pre>
+<h4 id="button"><code>button</code></h4>
+<pre><code class="lang-purescript">button :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="canvas"><code>canvas</code></h4>
+<pre><code class="lang-purescript">canvas :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="caption"><code>caption</code></h4>
+<pre><code class="lang-purescript">caption :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="cite"><code>cite</code></h4>
+<pre><code class="lang-purescript">cite :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="code"><code>code</code></h4>
+<pre><code class="lang-purescript">code :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="col"><code>col</code></h4>
+<pre><code class="lang-purescript">col :: VirtualDOM
+</code></pre>
+<h4 id="colgroup"><code>colgroup</code></h4>
+<pre><code class="lang-purescript">colgroup :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="data"><code>data_</code></h4>
+<pre><code class="lang-purescript">data_ :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="datalist"><code>datalist</code></h4>
+<pre><code class="lang-purescript">datalist :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="dd"><code>dd</code></h4>
+<pre><code class="lang-purescript">dd :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="del"><code>del</code></h4>
+<pre><code class="lang-purescript">del :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="details"><code>details</code></h4>
+<pre><code class="lang-purescript">details :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="dfn"><code>dfn</code></h4>
+<pre><code class="lang-purescript">dfn :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="dialog"><code>dialog</code></h4>
+<pre><code class="lang-purescript">dialog :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="div"><code>div</code></h4>
+<pre><code class="lang-purescript">div :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="dl"><code>dl</code></h4>
+<pre><code class="lang-purescript">dl :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="dt"><code>dt</code></h4>
+<pre><code class="lang-purescript">dt :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="em"><code>em</code></h4>
+<pre><code class="lang-purescript">em :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="embed"><code>embed</code></h4>
+<pre><code class="lang-purescript">embed :: VirtualDOM
+</code></pre>
+<h4 id="fieldset"><code>fieldset</code></h4>
+<pre><code class="lang-purescript">fieldset :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="figcaption"><code>figcaption</code></h4>
+<pre><code class="lang-purescript">figcaption :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="figure"><code>figure</code></h4>
+<pre><code class="lang-purescript">figure :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="footer"><code>footer</code></h4>
+<pre><code class="lang-purescript">footer :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="form"><code>form</code></h4>
+<pre><code class="lang-purescript">form :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="h1"><code>h1</code></h4>
+<pre><code class="lang-purescript">h1 :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="h2"><code>h2</code></h4>
+<pre><code class="lang-purescript">h2 :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="h3"><code>h3</code></h4>
+<pre><code class="lang-purescript">h3 :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="h4"><code>h4</code></h4>
+<pre><code class="lang-purescript">h4 :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="h5"><code>h5</code></h4>
+<pre><code class="lang-purescript">h5 :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="h6"><code>h6</code></h4>
+<pre><code class="lang-purescript">h6 :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="head"><code>head</code></h4>
+<pre><code class="lang-purescript">head :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="header"><code>header</code></h4>
+<pre><code class="lang-purescript">header :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="hr"><code>hr</code></h4>
+<pre><code class="lang-purescript">hr :: VirtualDOM
+</code></pre>
+<h4 id="html"><code>html</code></h4>
+<pre><code class="lang-purescript">html :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="i"><code>i</code></h4>
+<pre><code class="lang-purescript">i :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="iframe"><code>iframe</code></h4>
+<pre><code class="lang-purescript">iframe :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="img"><code>img</code></h4>
+<pre><code class="lang-purescript">img :: VirtualDOM
+</code></pre>
+<h4 id="input"><code>input</code></h4>
+<pre><code class="lang-purescript">input :: VirtualDOM
+</code></pre>
+<h4 id="ins"><code>ins</code></h4>
+<pre><code class="lang-purescript">ins :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="kbd"><code>kbd</code></h4>
+<pre><code class="lang-purescript">kbd :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="keygen"><code>keygen</code></h4>
+<pre><code class="lang-purescript">keygen :: VirtualDOM
+</code></pre>
+<h4 id="label"><code>label</code></h4>
+<pre><code class="lang-purescript">label :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="legend"><code>legend</code></h4>
+<pre><code class="lang-purescript">legend :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="li"><code>li</code></h4>
+<pre><code class="lang-purescript">li :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="link"><code>link</code></h4>
+<pre><code class="lang-purescript">link :: VirtualDOM
+</code></pre>
+<h4 id="main"><code>main</code></h4>
+<pre><code class="lang-purescript">main :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="map"><code>map</code></h4>
+<pre><code class="lang-purescript">map :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="mark"><code>mark</code></h4>
+<pre><code class="lang-purescript">mark :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="menu"><code>menu</code></h4>
+<pre><code class="lang-purescript">menu :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="menuitem"><code>menuitem</code></h4>
+<pre><code class="lang-purescript">menuitem :: VirtualDOM
+</code></pre>
+<h4 id="meta"><code>meta</code></h4>
+<pre><code class="lang-purescript">meta :: VirtualDOM
+</code></pre>
+<h4 id="meter"><code>meter</code></h4>
+<pre><code class="lang-purescript">meter :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="nav"><code>nav</code></h4>
+<pre><code class="lang-purescript">nav :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="noscript"><code>noscript</code></h4>
+<pre><code class="lang-purescript">noscript :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="object"><code>object</code></h4>
+<pre><code class="lang-purescript">object :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="ol"><code>ol</code></h4>
+<pre><code class="lang-purescript">ol :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="optgroup"><code>optgroup</code></h4>
+<pre><code class="lang-purescript">optgroup :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="option"><code>option</code></h4>
+<pre><code class="lang-purescript">option :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="output"><code>output</code></h4>
+<pre><code class="lang-purescript">output :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="p"><code>p</code></h4>
+<pre><code class="lang-purescript">p :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="param"><code>param</code></h4>
+<pre><code class="lang-purescript">param :: VirtualDOM
+</code></pre>
+<h4 id="picture"><code>picture</code></h4>
+<pre><code class="lang-purescript">picture :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="pre"><code>pre</code></h4>
+<pre><code class="lang-purescript">pre :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="progress"><code>progress</code></h4>
+<pre><code class="lang-purescript">progress :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="q"><code>q</code></h4>
+<pre><code class="lang-purescript">q :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="rp"><code>rp</code></h4>
+<pre><code class="lang-purescript">rp :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="rt"><code>rt</code></h4>
+<pre><code class="lang-purescript">rt :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="ruby"><code>ruby</code></h4>
+<pre><code class="lang-purescript">ruby :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="s"><code>s</code></h4>
+<pre><code class="lang-purescript">s :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="samp"><code>samp</code></h4>
+<pre><code class="lang-purescript">samp :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="script"><code>script</code></h4>
+<pre><code class="lang-purescript">script :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="section"><code>section</code></h4>
+<pre><code class="lang-purescript">section :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="select"><code>select</code></h4>
+<pre><code class="lang-purescript">select :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="small"><code>small</code></h4>
+<pre><code class="lang-purescript">small :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="source"><code>source</code></h4>
+<pre><code class="lang-purescript">source :: VirtualDOM
+</code></pre>
+<h4 id="span"><code>span</code></h4>
+<pre><code class="lang-purescript">span :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="strong"><code>strong</code></h4>
+<pre><code class="lang-purescript">strong :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="style"><code>style</code></h4>
+<pre><code class="lang-purescript">style :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="sub"><code>sub</code></h4>
+<pre><code class="lang-purescript">sub :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="summary"><code>summary</code></h4>
+<pre><code class="lang-purescript">summary :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="sup"><code>sup</code></h4>
+<pre><code class="lang-purescript">sup :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="table"><code>table</code></h4>
+<pre><code class="lang-purescript">table :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="tbody"><code>tbody</code></h4>
+<pre><code class="lang-purescript">tbody :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="td"><code>td</code></h4>
+<pre><code class="lang-purescript">td :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="textarea"><code>textarea</code></h4>
+<pre><code class="lang-purescript">textarea :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="tfoot"><code>tfoot</code></h4>
+<pre><code class="lang-purescript">tfoot :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="th"><code>th</code></h4>
+<pre><code class="lang-purescript">th :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="thead"><code>thead</code></h4>
+<pre><code class="lang-purescript">thead :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="time"><code>time</code></h4>
+<pre><code class="lang-purescript">time :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="title"><code>title</code></h4>
+<pre><code class="lang-purescript">title :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="tr"><code>tr</code></h4>
+<pre><code class="lang-purescript">tr :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="track"><code>track</code></h4>
+<pre><code class="lang-purescript">track :: VirtualDOM
+</code></pre>
+<h4 id="u"><code>u</code></h4>
+<pre><code class="lang-purescript">u :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="ul"><code>ul</code></h4>
+<pre><code class="lang-purescript">ul :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="var"><code>var</code></h4>
+<pre><code class="lang-purescript">var :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="video"><code>video</code></h4>
+<pre><code class="lang-purescript">video :: VirtualDOM -&gt; VirtualDOM
+</code></pre>
+<h4 id="wbr"><code>wbr</code></h4>
+<pre><code class="lang-purescript">wbr :: VirtualDOM
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../../../../docs/API/Pux/DOM/HTML/Attributes.html" class="navigation navigation-prev " aria-label="Previous page: Pux.DOM.HTML.Attributes"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../../../../docs/API/Pux/Render/DOM.html" class="navigation navigation-next " aria-label="Next page: Pux.Render.DOM"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../../../../gitbook/app.js"></script>
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/alexmingoia/purescript-pux/tree/master","label":"Edit This Page"},"github":{"url":"https://github.com/alexmingoia/purescript-pux"},"purs-example":{},"prism":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

@@ -1,0 +1,544 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Introduction | purescript-pux</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A PureScript FRP interface to React.">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./docs/Installation.html" />
+    
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="0"
+        data-chapter-title="Introduction"
+        data-filepath="README.md"
+        data-basepath="."
+        data-revision="Fri Feb 05 2016 09:57:50 GMT-0800 (PST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter active" data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/Installation.html">
+            
+                
+                    <a href="./docs/Installation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Installation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/Views.html">
+            
+                
+                    <a href="./docs/Views.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Views
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/actions/index.html">
+            
+                
+                    <a href="./docs/actions/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Actions
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/actions/SendingActions.html">
+            
+                
+                    <a href="./docs/actions/SendingActions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Sending Actions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/actions/UpdatingState.html">
+            
+                
+                    <a href="./docs/actions/UpdatingState.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Updating State
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/Routing.html">
+            
+                
+                    <a href="./docs/Routing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Routing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/Rendering.html">
+            
+                
+                    <a href="./docs/Rendering.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Rendering
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/examples/index.html">
+            
+                
+                    <a href="./docs/examples/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Examples
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/examples/basic.html">
+            
+                
+                    <a href="./docs/examples/basic.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Basic counter
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/examples/ajax.html">
+            
+                
+                    <a href="./docs/examples/ajax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        AJAX
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="docs/examples/routing.html">
+            
+                
+                    <a href="./docs/examples/routing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        Routing
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="docs/API/Pux.html">
+            
+                
+                    <a href="./docs/API/Pux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        API Reference
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docs/API/Pux/App.html">
+            
+                
+                    <a href="./docs/API/Pux/App.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        Pux.App
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docs/API/Pux/DOM.html">
+            
+                
+                    <a href="./docs/API/Pux/DOM.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        Pux.DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="docs/API/Pux/DOM/HTML/Attributes.html">
+            
+                
+                    <a href="./docs/API/Pux/DOM/HTML/Attributes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        Pux.DOM.HTML.Attributes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="docs/API/Pux/DOM/HTML/Elements.html">
+            
+                
+                    <a href="./docs/API/Pux/DOM/HTML/Elements.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        Pux.DOM.HTML.Elements
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="docs/API/Pux/Render/DOM.html">
+            
+                
+                    <a href="./docs/API/Pux/Render/DOM.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                        Pux.Render.DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="docs/API/Pux/Render/HTML.html">
+            
+                
+                    <a href="./docs/API/Pux/Render/HTML.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.6.</b>
+                        
+                        Pux.Render.HTML
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="docs/API/Pux/Router.html">
+            
+                
+                    <a href="./docs/API/Pux/Router.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.7.</b>
+                        
+                        Pux.Router
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >purescript-pux</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="pux">Pux</h1>
+<p><a href="https://github.com/alexmingoia/purescript-pux/releases" target="_blank"><img src="http://img.shields.io/bower/v/purescript-pux.svg" alt="Latest release"></a>
+<a href="https://travis-ci.org/alexmingoia/purescript-pux" target="_blank"><img src="https://travis-ci.org/alexmingoia/purescript-pux.svg?branch=master" alt="Build Status"></a>
+<a href="https://gitter.im/alexmingoia/purescript-pux" target="_blank"><img src="https://img.shields.io/gitter/room/gitterHQ/gitter.svg" alt="Gitter Chat"></a></p>
+<p>A PureScript FRP interface to React.</p>
+<ul>
+<li>Build React UIs as a fold of actions to state via <a href="https://github.com/bodil/purescript-signal/" target="_blank"><code>purescript-signal</code></a></li>
+<li>Type-safe routing</li>
+<li>Server-side rendering (isomorphic applications)</li>
+<li>Hot-reloading of components</li>
+</ul>
+<hr>
+<ul>
+<li><a href="http://alexmingoia.github.io/purescript-pux" target="_blank">Guide</a></li>
+<li><a href="http://alexmingoia.github.io/purescript-pux/docs/API/Pux.html" target="_blank">API Reference</a></li>
+<li>Examples:<ul>
+<li><a href="https://github.com/alexmingoia/purescript-pux/tree/master/examples/basic/" target="_blank">Basic counter</a></li>
+<li><a href="https://github.com/alexmingoia/purescript-pux/tree/master/examples/ajax/" target="_blank">AJAX</a></li>
+<li><a href="https://github.com/alexmingoia/purescript-pux/tree/master/examples/routing/" target="_blank">Routing</a></li>
+</ul>
+</li>
+</ul>
+<p>What makes Pux different from Halogen and react-thermite?</p>
+<ul>
+<li>Monadic DSL for creating views/virtual DOM</li>
+<li>Routing out-of-the-box</li>
+<li>Simpler API that resembles the Elm app architecture.</li>
+<li>React 0.14+ support</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>Pux is a simple FRP interface for building web applications with React,
+inspired by the
+<a href="https://github.com/evancz/elm-architecture-tutorial" target="_blank">Elm app architecture</a>
+and <a href="https://facebook.github.io/flux/" target="_blank">Flux</a>. Views are produced from a global
+state atom, which is updated by a function that folds actions from input.
+Rendering is handled by React, and PureScript provides functional type-safe
+application code.</p>
+<p>Pux applications consist of:</p>
+<ul>
+<li>A type for application state.</li>
+<li>A type for actions taken by the user and sent to <code>Input</code>.</li>
+<li>A view function, which produces HTML from the current state.</li>
+<li>An <code>Update</code> function, which produces a new state from the signal of actions.</li>
+</ul>
+<h2 id="example">Example</h2>
+<pre><code class="lang-haskell"><span class="token keyword">data</span> <span class="token constant">Action</span> <span class="token operator">=</span> <span class="token constant">Increment</span> <span class="token operator">|</span> <span class="token constant">Decrement</span>
+
+<span class="token keyword">type</span> <span class="token constant">State</span> <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token hvariable">counter</span> <span class="token operator">::</span> <span class="token constant">Int</span> <span class="token punctuation">}</span>
+
+<span class="token hvariable">initialState</span> <span class="token operator">::</span> <span class="token constant">State</span>
+<span class="token hvariable">initialState</span> <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token hvariable">counter</span><span class="token operator">:</span> <span class="token number">0</span> <span class="token punctuation">}</span>
+
+<span class="token hvariable">update</span> <span class="token operator">::</span> <span class="token hvariable">forall</span> <span class="token hvariable">eff</span><span class="token punctuation">.</span> <span class="token constant">Update</span> <span class="token punctuation">(</span><span class="token hvariable">console</span> <span class="token operator">::</span> <span class="token constant">CONSOLE</span> <span class="token operator">|</span> <span class="token hvariable">eff</span><span class="token punctuation">)</span> <span class="token constant">State</span> <span class="token constant">Action</span>
+<span class="token hvariable">update</span> <span class="token hvariable">action</span> <span class="token hvariable">state</span> <span class="token hvariable">input</span> <span class="token operator">=</span>
+  <span class="token keyword">case</span> <span class="token hvariable">action</span> <span class="token keyword">of</span>
+    <span class="token constant">Increment</span> <span class="token operator">-&gt;</span>
+      <span class="token punctuation">{</span> <span class="token hvariable">state</span><span class="token operator">:</span> <span class="token hvariable">state</span> <span class="token punctuation">{</span> <span class="token hvariable">counter</span> <span class="token operator">=</span> <span class="token hvariable">state</span><span class="token punctuation">.</span><span class="token hvariable">counter</span> <span class="token operator">+</span> <span class="token number">1</span> <span class="token punctuation">}</span>
+      <span class="token punctuation">,</span> <span class="token hvariable">effects</span><span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token keyword">do</span> <span class="token builtin">log</span> <span class="token string">&quot;increment&quot;</span> <span class="token punctuation">]</span> <span class="token punctuation">}</span>
+    <span class="token constant">Decrement</span> <span class="token operator">-&gt;</span>
+      <span class="token punctuation">{</span> <span class="token hvariable">state</span><span class="token operator">:</span> <span class="token hvariable">state</span> <span class="token punctuation">{</span> <span class="token hvariable">counter</span> <span class="token operator">=</span> <span class="token hvariable">state</span><span class="token punctuation">.</span><span class="token hvariable">counter</span> <span class="token operator">-</span> <span class="token number">1</span> <span class="token punctuation">}</span>
+      <span class="token punctuation">,</span> <span class="token hvariable">effects</span><span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token keyword">do</span> <span class="token builtin">log</span> <span class="token string">&quot;decrement&quot;</span> <span class="token punctuation">]</span> <span class="token punctuation">}</span>
+
+<span class="token hvariable">view</span> <span class="token operator">::</span> <span class="token constant">State</span> <span class="token operator">-&gt;</span> <span class="token constant">VirtualDOM</span>
+<span class="token hvariable">view</span> <span class="token hvariable">state</span> <span class="token operator">=</span> <span class="token builtin">div</span> <span class="token operator">$</span> <span class="token keyword">do</span>
+  <span class="token hvariable">p</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token punctuation">(</span><span class="token string">&quot;Counter: &quot;</span> <span class="token operator">++</span> <span class="token builtin">show</span> <span class="token hvariable">state</span><span class="token punctuation">.</span><span class="token hvariable">counter</span><span class="token punctuation">)</span>
+  <span class="token hvariable">p</span> <span class="token operator">$</span> <span class="token keyword">do</span>
+    <span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Increment</span><span class="token punctuation">)</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token string">&quot;Increment&quot;</span>
+    <span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Decrement</span><span class="token punctuation">)</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token string">&quot;Decrement&quot;</span>
+
+<span class="token hvariable">main</span> <span class="token operator">=</span> <span class="token hvariable">renderToDOM</span> <span class="token string">&quot;#app&quot;</span> <span class="token operator">=&lt;&lt;</span> <span class="token hvariable">app</span>
+  <span class="token punctuation">{</span> <span class="token hvariable">state</span><span class="token operator">:</span> <span class="token hvariable">initialState</span>
+  <span class="token punctuation">,</span> <span class="token hvariable">update</span><span class="token operator">:</span> <span class="token hvariable">update</span>
+  <span class="token punctuation">,</span> <span class="token hvariable">view</span><span class="token operator">:</span> <span class="token hvariable">view</span>
+  <span class="token punctuation">,</span> <span class="token hvariable">inputs</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <a href="./docs/Installation.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Installation"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/alexmingoia/purescript-pux/tree/master","label":"Edit This Page"},"github":{"url":"https://github.com/alexmingoia/purescript-pux"},"purs-example":{},"prism":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

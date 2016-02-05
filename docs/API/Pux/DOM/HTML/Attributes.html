@@ -1,0 +1,920 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Pux.DOM.HTML.Attributes | purescript-pux</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../../../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../../../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../../../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../../../../docs/API/Pux/DOM/HTML/Elements.html" />
+    
+    
+    <link rel="prev" href="../../../../../docs/API/Pux/DOM.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="7.3"
+        data-chapter-title="Pux.DOM.HTML.Attributes"
+        data-filepath="docs/API/Pux/DOM/HTML/Attributes.md"
+        data-basepath="../../../../.."
+        data-revision="Fri Feb 05 2016 09:57:50 GMT-0800 (PST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../../../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/Installation.html">
+            
+                
+                    <a href="../../../../../docs/Installation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Installation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/Views.html">
+            
+                
+                    <a href="../../../../../docs/Views.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Views
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/actions/index.html">
+            
+                
+                    <a href="../../../../../docs/actions/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Actions
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/actions/SendingActions.html">
+            
+                
+                    <a href="../../../../../docs/actions/SendingActions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Sending Actions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/actions/UpdatingState.html">
+            
+                
+                    <a href="../../../../../docs/actions/UpdatingState.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Updating State
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/Routing.html">
+            
+                
+                    <a href="../../../../../docs/Routing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Routing
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/Rendering.html">
+            
+                
+                    <a href="../../../../../docs/Rendering.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Rendering
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/examples/index.html">
+            
+                
+                    <a href="../../../../../docs/examples/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Examples
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/examples/basic.html">
+            
+                
+                    <a href="../../../../../docs/examples/basic.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Basic counter
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/examples/ajax.html">
+            
+                
+                    <a href="../../../../../docs/examples/ajax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        AJAX
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="docs/examples/routing.html">
+            
+                
+                    <a href="../../../../../docs/examples/routing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        Routing
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="docs/API/Pux.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        API Reference
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docs/API/Pux/App.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/App.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        Pux.App
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docs/API/Pux/DOM.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/DOM.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        Pux.DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="7.3" data-path="docs/API/Pux/DOM/HTML/Attributes.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/DOM/HTML/Attributes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        Pux.DOM.HTML.Attributes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="docs/API/Pux/DOM/HTML/Elements.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/DOM/HTML/Elements.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        Pux.DOM.HTML.Elements
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="docs/API/Pux/Render/DOM.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/Render/DOM.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                        Pux.Render.DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="docs/API/Pux/Render/HTML.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/Render/HTML.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.6.</b>
+                        
+                        Pux.Render.HTML
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="docs/API/Pux/Router.html">
+            
+                
+                    <a href="../../../../../docs/API/Pux/Router.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.7.</b>
+                        
+                        Pux.Router
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../../../" >purescript-pux</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="module-puxdomhtmlattributes">Module Pux.DOM.HTML.Attributes</h2>
+<p>Example:</p>
+<pre><code class="lang-haskell"><span class="token import_statement"><span class="token keyword">import</span> Pux</span><span class="token import_statement">
+<span class="token keyword">import</span> Pux.DOM.HTML.Elements</span> <span class="token punctuation">(</span><span class="token builtin">div</span><span class="token punctuation">,</span> <span class="token hvariable">p</span><span class="token punctuation">,</span> <span class="token hvariable">button</span><span class="token punctuation">,</span> <span class="token hvariable">text</span><span class="token punctuation">)</span><span class="token import_statement">
+<span class="token keyword">import</span> Pux.DOM.HTML.Attributes</span> <span class="token punctuation">(</span><span class="token hvariable">onClick</span><span class="token punctuation">,</span> <span class="token hvariable">send</span><span class="token punctuation">)</span>
+
+<span class="token hvariable">view</span> <span class="token operator">::</span> <span class="token constant">State</span> <span class="token operator">-&gt;</span> <span class="token constant">VirtualDOM</span>
+<span class="token hvariable">view</span> <span class="token hvariable">state</span> <span class="token operator">=</span> <span class="token builtin">div</span> <span class="token operator">$</span> <span class="token keyword">do</span>
+  <span class="token hvariable">p</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token punctuation">(</span><span class="token string">&quot;Counter: &quot;</span> <span class="token operator">++</span> <span class="token builtin">show</span> <span class="token hvariable">state</span><span class="token punctuation">.</span><span class="token hvariable">counter</span><span class="token punctuation">)</span>
+  <span class="token hvariable">p</span> <span class="token operator">$</span> <span class="token keyword">do</span>
+    <span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Increment</span><span class="token punctuation">)</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token string">&quot;Increment&quot;</span>
+    <span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Decrement</span><span class="token punctuation">)</span> <span class="token operator">$</span> <span class="token hvariable">text</span> <span class="token string">&quot;Decrement&quot;</span>
+</code></pre>
+<h4 id="mouseevent"><code>MouseEvent</code></h4>
+<pre><code class="lang-purescript">type MouseEvent = { pageX :: Number, pageY :: Number }
+</code></pre>
+<h4 id="keyboardevent"><code>KeyboardEvent</code></h4>
+<pre><code class="lang-purescript">type KeyboardEvent = { altKey :: Boolean, ctrlKey :: Boolean, charCode :: Int, key :: String, keyCode :: Int, locale :: String, location :: Int, metaKey :: Boolean, repeat :: Boolean, shiftKey :: Boolean, which :: Int }
+</code></pre>
+<h4 id="send"><code>send</code></h4>
+<pre><code class="lang-purescript">send :: forall ev action eff. action -&gt; Handler ev action eff
+</code></pre>
+<pre><code class="lang-haskell"><span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Increment</span><span class="token punctuation">)</span>
+</code></pre>
+<h4 id="preventdefault"><code>preventDefault</code></h4>
+<pre><code class="lang-purescript">preventDefault :: forall ev action eff. Handler ev action (dom :: DOM | eff)
+</code></pre>
+<pre><code class="lang-haskell"><span class="token hvariable">form</span> <span class="token operator">!</span> <span class="token hvariable">onSubmit</span> <span class="token hvariable">preventDefault</span>
+</code></pre>
+<h4 id="stoppropagation"><code>stopPropagation</code></h4>
+<pre><code class="lang-purescript">stopPropagation :: forall ev action eff. Handler ev action (dom :: DOM | eff)
+</code></pre>
+<pre><code class="lang-haskell"><span class="token hvariable">button</span> <span class="token operator">!</span> <span class="token hvariable">onClick</span> <span class="token punctuation">(</span><span class="token hvariable">send</span> <span class="token constant">Increment</span> <span class="token operator">&lt;&gt;</span> <span class="token hvariable">stopPropagation</span><span class="token punctuation">)</span>
+</code></pre>
+<h4 id="oncopy"><code>onCopy</code></h4>
+<pre><code class="lang-purescript">onCopy :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="oncut"><code>onCut</code></h4>
+<pre><code class="lang-purescript">onCut :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onpaste"><code>onPaste</code></h4>
+<pre><code class="lang-purescript">onPaste :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onkeydown"><code>onKeyDown</code></h4>
+<pre><code class="lang-purescript">onKeyDown :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onkeypress"><code>onKeyPress</code></h4>
+<pre><code class="lang-purescript">onKeyPress :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onkeyup"><code>onKeyUp</code></h4>
+<pre><code class="lang-purescript">onKeyUp :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onfocus"><code>onFocus</code></h4>
+<pre><code class="lang-purescript">onFocus :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onblur"><code>onBlur</code></h4>
+<pre><code class="lang-purescript">onBlur :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onchange"><code>onChange</code></h4>
+<pre><code class="lang-purescript">onChange :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="oninput"><code>onInput</code></h4>
+<pre><code class="lang-purescript">onInput :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onsubmit"><code>onSubmit</code></h4>
+<pre><code class="lang-purescript">onSubmit :: forall action eff. Handler KeyboardEvent (KeyboardEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onclick"><code>onClick</code></h4>
+<pre><code class="lang-purescript">onClick :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondoubleclick"><code>onDoubleClick</code></h4>
+<pre><code class="lang-purescript">onDoubleClick :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondrag"><code>onDrag</code></h4>
+<pre><code class="lang-purescript">onDrag :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondragend"><code>onDragEnd</code></h4>
+<pre><code class="lang-purescript">onDragEnd :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondragenter"><code>onDragEnter</code></h4>
+<pre><code class="lang-purescript">onDragEnter :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondragexit"><code>onDragExit</code></h4>
+<pre><code class="lang-purescript">onDragExit :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondragleave"><code>onDragLeave</code></h4>
+<pre><code class="lang-purescript">onDragLeave :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondragover"><code>onDragOver</code></h4>
+<pre><code class="lang-purescript">onDragOver :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondragstart"><code>onDragStart</code></h4>
+<pre><code class="lang-purescript">onDragStart :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ondrop"><code>onDrop</code></h4>
+<pre><code class="lang-purescript">onDrop :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onmousedown"><code>onMouseDown</code></h4>
+<pre><code class="lang-purescript">onMouseDown :: forall action eff. Handler MouseEvent (MouseEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onmouseenter"><code>onMouseEnter</code></h4>
+<pre><code class="lang-purescript">onMouseEnter :: forall action eff. Handler MouseEvent (MouseEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onmouseleave"><code>onMouseLeave</code></h4>
+<pre><code class="lang-purescript">onMouseLeave :: forall action eff. Handler MouseEvent (MouseEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onmousemove"><code>onMouseMove</code></h4>
+<pre><code class="lang-purescript">onMouseMove :: forall action eff. Handler MouseEvent (MouseEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onmouseout"><code>onMouseOut</code></h4>
+<pre><code class="lang-purescript">onMouseOut :: forall action eff. Handler MouseEvent (MouseEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onmouseover"><code>onMouseOver</code></h4>
+<pre><code class="lang-purescript">onMouseOver :: forall action eff. Handler MouseEvent (MouseEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onmouseup"><code>onMouseUp</code></h4>
+<pre><code class="lang-purescript">onMouseUp :: forall action eff. Handler MouseEvent (MouseEvent -&gt; action) (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ontouchcancel"><code>onTouchCancel</code></h4>
+<pre><code class="lang-purescript">onTouchCancel :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ontouchend"><code>onTouchEnd</code></h4>
+<pre><code class="lang-purescript">onTouchEnd :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ontouchmove"><code>onTouchMove</code></h4>
+<pre><code class="lang-purescript">onTouchMove :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="ontouchstart"><code>onTouchStart</code></h4>
+<pre><code class="lang-purescript">onTouchStart :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onscroll"><code>onScroll</code></h4>
+<pre><code class="lang-purescript">onScroll :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="onwheel"><code>onWheel</code></h4>
+<pre><code class="lang-purescript">onWheel :: forall action eff. Handler Event action (dom :: DOM, chan :: Chan | eff) -&gt; Attrs
+</code></pre>
+<h4 id="aria"><code>aria</code></h4>
+<pre><code class="lang-purescript">aria :: forall ariaAttrs. {  | ariaAttrs } -&gt; Attrs
+</code></pre>
+<h4 id="data"><code>data_</code></h4>
+<pre><code class="lang-purescript">data_ :: forall dataAttrs. {  | dataAttrs } -&gt; Attrs
+</code></pre>
+<h4 id="style"><code>style</code></h4>
+<pre><code class="lang-purescript">style :: forall style. {  | style } -&gt; Attrs
+</code></pre>
+<h4 id="dangerouslysetinnerhtml"><code>dangerouslySetInnerHTML</code></h4>
+<pre><code class="lang-purescript">dangerouslySetInnerHTML :: { __html :: String } -&gt; Attrs
+</code></pre>
+<h4 id="accept"><code>accept</code></h4>
+<pre><code class="lang-purescript">accept :: String -&gt; Attrs
+</code></pre>
+<h4 id="acceptcharset"><code>acceptCharset</code></h4>
+<pre><code class="lang-purescript">acceptCharset :: String -&gt; Attrs
+</code></pre>
+<h4 id="accesskey"><code>accessKey</code></h4>
+<pre><code class="lang-purescript">accessKey :: String -&gt; Attrs
+</code></pre>
+<h4 id="action"><code>action</code></h4>
+<pre><code class="lang-purescript">action :: String -&gt; Attrs
+</code></pre>
+<h4 id="allowfullscreen"><code>allowFullScreen</code></h4>
+<pre><code class="lang-purescript">allowFullScreen :: String -&gt; Attrs
+</code></pre>
+<h4 id="allowtransparency"><code>allowTransparency</code></h4>
+<pre><code class="lang-purescript">allowTransparency :: String -&gt; Attrs
+</code></pre>
+<h4 id="alt"><code>alt</code></h4>
+<pre><code class="lang-purescript">alt :: String -&gt; Attrs
+</code></pre>
+<h4 id="async"><code>async</code></h4>
+<pre><code class="lang-purescript">async :: String -&gt; Attrs
+</code></pre>
+<h4 id="autocomplete"><code>autoComplete</code></h4>
+<pre><code class="lang-purescript">autoComplete :: String -&gt; Attrs
+</code></pre>
+<h4 id="autofocus"><code>autoFocus</code></h4>
+<pre><code class="lang-purescript">autoFocus :: Boolean -&gt; Attrs
+</code></pre>
+<h4 id="autoplay"><code>autoPlay</code></h4>
+<pre><code class="lang-purescript">autoPlay :: String -&gt; Attrs
+</code></pre>
+<h4 id="cellpadding"><code>cellPadding</code></h4>
+<pre><code class="lang-purescript">cellPadding :: String -&gt; Attrs
+</code></pre>
+<h4 id="cellspacing"><code>cellSpacing</code></h4>
+<pre><code class="lang-purescript">cellSpacing :: String -&gt; Attrs
+</code></pre>
+<h4 id="charset"><code>charSet</code></h4>
+<pre><code class="lang-purescript">charSet :: String -&gt; Attrs
+</code></pre>
+<h4 id="checked"><code>checked</code></h4>
+<pre><code class="lang-purescript">checked :: String -&gt; Attrs
+</code></pre>
+<h4 id="classid"><code>classID</code></h4>
+<pre><code class="lang-purescript">classID :: String -&gt; Attrs
+</code></pre>
+<h4 id="classname"><code>className</code></h4>
+<pre><code class="lang-purescript">className :: String -&gt; Attrs
+</code></pre>
+<h4 id="cols"><code>cols</code></h4>
+<pre><code class="lang-purescript">cols :: String -&gt; Attrs
+</code></pre>
+<h4 id="colspan"><code>colSpan</code></h4>
+<pre><code class="lang-purescript">colSpan :: String -&gt; Attrs
+</code></pre>
+<h4 id="content"><code>content</code></h4>
+<pre><code class="lang-purescript">content :: String -&gt; Attrs
+</code></pre>
+<h4 id="contenteditable"><code>contentEditable</code></h4>
+<pre><code class="lang-purescript">contentEditable :: String -&gt; Attrs
+</code></pre>
+<h4 id="contextmenu"><code>contextMenu</code></h4>
+<pre><code class="lang-purescript">contextMenu :: String -&gt; Attrs
+</code></pre>
+<h4 id="controls"><code>controls</code></h4>
+<pre><code class="lang-purescript">controls :: String -&gt; Attrs
+</code></pre>
+<h4 id="coords"><code>coords</code></h4>
+<pre><code class="lang-purescript">coords :: String -&gt; Attrs
+</code></pre>
+<h4 id="crossorigin"><code>crossOrigin</code></h4>
+<pre><code class="lang-purescript">crossOrigin :: String -&gt; Attrs
+</code></pre>
+<h4 id="datetime"><code>dateTime</code></h4>
+<pre><code class="lang-purescript">dateTime :: String -&gt; Attrs
+</code></pre>
+<h4 id="defer"><code>defer</code></h4>
+<pre><code class="lang-purescript">defer :: String -&gt; Attrs
+</code></pre>
+<h4 id="dir"><code>dir</code></h4>
+<pre><code class="lang-purescript">dir :: String -&gt; Attrs
+</code></pre>
+<h4 id="disabled"><code>disabled</code></h4>
+<pre><code class="lang-purescript">disabled :: Boolean -&gt; Attrs
+</code></pre>
+<h4 id="download"><code>download</code></h4>
+<pre><code class="lang-purescript">download :: String -&gt; Attrs
+</code></pre>
+<h4 id="draggable"><code>draggable</code></h4>
+<pre><code class="lang-purescript">draggable :: String -&gt; Attrs
+</code></pre>
+<h4 id="enctype"><code>encType</code></h4>
+<pre><code class="lang-purescript">encType :: String -&gt; Attrs
+</code></pre>
+<h4 id="form"><code>form</code></h4>
+<pre><code class="lang-purescript">form :: String -&gt; Attrs
+</code></pre>
+<h4 id="formaction"><code>formAction</code></h4>
+<pre><code class="lang-purescript">formAction :: String -&gt; Attrs
+</code></pre>
+<h4 id="formenctype"><code>formEncType</code></h4>
+<pre><code class="lang-purescript">formEncType :: String -&gt; Attrs
+</code></pre>
+<h4 id="formmethod"><code>formMethod</code></h4>
+<pre><code class="lang-purescript">formMethod :: String -&gt; Attrs
+</code></pre>
+<h4 id="formnovalidate"><code>formNoValidate</code></h4>
+<pre><code class="lang-purescript">formNoValidate :: String -&gt; Attrs
+</code></pre>
+<h4 id="formtarget"><code>formTarget</code></h4>
+<pre><code class="lang-purescript">formTarget :: String -&gt; Attrs
+</code></pre>
+<h4 id="frameborder"><code>frameBorder</code></h4>
+<pre><code class="lang-purescript">frameBorder :: String -&gt; Attrs
+</code></pre>
+<h4 id="height"><code>height</code></h4>
+<pre><code class="lang-purescript">height :: String -&gt; Attrs
+</code></pre>
+<h4 id="hidden"><code>hidden</code></h4>
+<pre><code class="lang-purescript">hidden :: String -&gt; Attrs
+</code></pre>
+<h4 id="href"><code>href</code></h4>
+<pre><code class="lang-purescript">href :: String -&gt; Attrs
+</code></pre>
+<h4 id="hreflang"><code>hrefLang</code></h4>
+<pre><code class="lang-purescript">hrefLang :: String -&gt; Attrs
+</code></pre>
+<h4 id="htmlfor"><code>htmlFor</code></h4>
+<pre><code class="lang-purescript">htmlFor :: String -&gt; Attrs
+</code></pre>
+<h4 id="httpequiv"><code>httpEquiv</code></h4>
+<pre><code class="lang-purescript">httpEquiv :: String -&gt; Attrs
+</code></pre>
+<h4 id="icon"><code>icon</code></h4>
+<pre><code class="lang-purescript">icon :: String -&gt; Attrs
+</code></pre>
+<h4 id="id"><code>id_</code></h4>
+<pre><code class="lang-purescript">id_ :: String -&gt; Attrs
+</code></pre>
+<h4 id="key"><code>key</code></h4>
+<pre><code class="lang-purescript">key :: String -&gt; Attrs
+</code></pre>
+<h4 id="label"><code>label</code></h4>
+<pre><code class="lang-purescript">label :: String -&gt; Attrs
+</code></pre>
+<h4 id="lang"><code>lang</code></h4>
+<pre><code class="lang-purescript">lang :: String -&gt; Attrs
+</code></pre>
+<h4 id="list"><code>list</code></h4>
+<pre><code class="lang-purescript">list :: String -&gt; Attrs
+</code></pre>
+<h4 id="loop"><code>loop</code></h4>
+<pre><code class="lang-purescript">loop :: String -&gt; Attrs
+</code></pre>
+<h4 id="manifest"><code>manifest</code></h4>
+<pre><code class="lang-purescript">manifest :: String -&gt; Attrs
+</code></pre>
+<h4 id="marginheight"><code>marginHeight</code></h4>
+<pre><code class="lang-purescript">marginHeight :: String -&gt; Attrs
+</code></pre>
+<h4 id="marginwidth"><code>marginWidth</code></h4>
+<pre><code class="lang-purescript">marginWidth :: String -&gt; Attrs
+</code></pre>
+<h4 id="max"><code>max</code></h4>
+<pre><code class="lang-purescript">max :: String -&gt; Attrs
+</code></pre>
+<h4 id="maxlength"><code>maxLength</code></h4>
+<pre><code class="lang-purescript">maxLength :: String -&gt; Attrs
+</code></pre>
+<h4 id="media"><code>media</code></h4>
+<pre><code class="lang-purescript">media :: String -&gt; Attrs
+</code></pre>
+<h4 id="mediagroup"><code>mediaGroup</code></h4>
+<pre><code class="lang-purescript">mediaGroup :: String -&gt; Attrs
+</code></pre>
+<h4 id="method"><code>method</code></h4>
+<pre><code class="lang-purescript">method :: String -&gt; Attrs
+</code></pre>
+<h4 id="min"><code>min</code></h4>
+<pre><code class="lang-purescript">min :: String -&gt; Attrs
+</code></pre>
+<h4 id="multiple"><code>multiple</code></h4>
+<pre><code class="lang-purescript">multiple :: String -&gt; Attrs
+</code></pre>
+<h4 id="muted"><code>muted</code></h4>
+<pre><code class="lang-purescript">muted :: String -&gt; Attrs
+</code></pre>
+<h4 id="name"><code>name</code></h4>
+<pre><code class="lang-purescript">name :: String -&gt; Attrs
+</code></pre>
+<h4 id="novalidate"><code>noValidate</code></h4>
+<pre><code class="lang-purescript">noValidate :: String -&gt; Attrs
+</code></pre>
+<h4 id="open"><code>open</code></h4>
+<pre><code class="lang-purescript">open :: String -&gt; Attrs
+</code></pre>
+<h4 id="pattern"><code>pattern</code></h4>
+<pre><code class="lang-purescript">pattern :: String -&gt; Attrs
+</code></pre>
+<h4 id="placeholder"><code>placeholder</code></h4>
+<pre><code class="lang-purescript">placeholder :: String -&gt; Attrs
+</code></pre>
+<h4 id="poster"><code>poster</code></h4>
+<pre><code class="lang-purescript">poster :: String -&gt; Attrs
+</code></pre>
+<h4 id="preload"><code>preload</code></h4>
+<pre><code class="lang-purescript">preload :: String -&gt; Attrs
+</code></pre>
+<h4 id="radiogroup"><code>radioGroup</code></h4>
+<pre><code class="lang-purescript">radioGroup :: String -&gt; Attrs
+</code></pre>
+<h4 id="readonly"><code>readOnly</code></h4>
+<pre><code class="lang-purescript">readOnly :: String -&gt; Attrs
+</code></pre>
+<h4 id="rel"><code>rel</code></h4>
+<pre><code class="lang-purescript">rel :: String -&gt; Attrs
+</code></pre>
+<h4 id="required"><code>required</code></h4>
+<pre><code class="lang-purescript">required :: String -&gt; Attrs
+</code></pre>
+<h4 id="role"><code>role</code></h4>
+<pre><code class="lang-purescript">role :: String -&gt; Attrs
+</code></pre>
+<h4 id="rows"><code>rows</code></h4>
+<pre><code class="lang-purescript">rows :: String -&gt; Attrs
+</code></pre>
+<h4 id="rowspan"><code>rowSpan</code></h4>
+<pre><code class="lang-purescript">rowSpan :: String -&gt; Attrs
+</code></pre>
+<h4 id="sandbox"><code>sandbox</code></h4>
+<pre><code class="lang-purescript">sandbox :: String -&gt; Attrs
+</code></pre>
+<h4 id="scope"><code>scope</code></h4>
+<pre><code class="lang-purescript">scope :: String -&gt; Attrs
+</code></pre>
+<h4 id="scrolling"><code>scrolling</code></h4>
+<pre><code class="lang-purescript">scrolling :: String -&gt; Attrs
+</code></pre>
+<h4 id="seamless"><code>seamless</code></h4>
+<pre><code class="lang-purescript">seamless :: String -&gt; Attrs
+</code></pre>
+<h4 id="selected"><code>selected</code></h4>
+<pre><code class="lang-purescript">selected :: String -&gt; Attrs
+</code></pre>
+<h4 id="shape"><code>shape</code></h4>
+<pre><code class="lang-purescript">shape :: String -&gt; Attrs
+</code></pre>
+<h4 id="size"><code>size</code></h4>
+<pre><code class="lang-purescript">size :: String -&gt; Attrs
+</code></pre>
+<h4 id="sizes"><code>sizes</code></h4>
+<pre><code class="lang-purescript">sizes :: String -&gt; Attrs
+</code></pre>
+<h4 id="span"><code>span_</code></h4>
+<pre><code class="lang-purescript">span_ :: String -&gt; Attrs
+</code></pre>
+<h4 id="spellcheck"><code>spellCheck</code></h4>
+<pre><code class="lang-purescript">spellCheck :: String -&gt; Attrs
+</code></pre>
+<h4 id="src"><code>src</code></h4>
+<pre><code class="lang-purescript">src :: String -&gt; Attrs
+</code></pre>
+<h4 id="srcdoc"><code>srcDoc</code></h4>
+<pre><code class="lang-purescript">srcDoc :: String -&gt; Attrs
+</code></pre>
+<h4 id="srcset"><code>srcSet</code></h4>
+<pre><code class="lang-purescript">srcSet :: String -&gt; Attrs
+</code></pre>
+<h4 id="start"><code>start</code></h4>
+<pre><code class="lang-purescript">start :: String -&gt; Attrs
+</code></pre>
+<h4 id="step"><code>step</code></h4>
+<pre><code class="lang-purescript">step :: String -&gt; Attrs
+</code></pre>
+<h4 id="tabindex"><code>tabIndex</code></h4>
+<pre><code class="lang-purescript">tabIndex :: String -&gt; Attrs
+</code></pre>
+<h4 id="target"><code>target</code></h4>
+<pre><code class="lang-purescript">target :: String -&gt; Attrs
+</code></pre>
+<h4 id="title"><code>title</code></h4>
+<pre><code class="lang-purescript">title :: String -&gt; Attrs
+</code></pre>
+<h4 id="type"><code>type_</code></h4>
+<pre><code class="lang-purescript">type_ :: String -&gt; Attrs
+</code></pre>
+<h4 id="usemap"><code>useMap</code></h4>
+<pre><code class="lang-purescript">useMap :: String -&gt; Attrs
+</code></pre>
+<h4 id="value"><code>value</code></h4>
+<pre><code class="lang-purescript">value :: String -&gt; Attrs
+</code></pre>
+<h4 id="width"><code>width</code></h4>
+<pre><code class="lang-purescript">width :: String -&gt; Attrs
+</code></pre>
+<h4 id="wmode"><code>wmode</code></h4>
+<pre><code class="lang-purescript">wmode :: String -&gt; Attrs
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../../../../docs/API/Pux/DOM.html" class="navigation navigation-prev " aria-label="Previous page: Pux.DOM"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../../../../docs/API/Pux/DOM/HTML/Elements.html" class="navigation navigation-next " aria-label="Next page: Pux.DOM.HTML.Elements"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../../../../gitbook/app.js"></script>
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../../../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/alexmingoia/purescript-pux/tree/master","label":"Edit This Page"},"github":{"url":"https://github.com/alexmingoia/purescript-pux"},"purs-example":{},"prism":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

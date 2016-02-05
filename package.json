@@ -1,0 +1,50 @@
+{
+  "scripts": {
+    "postinstall": "pulp dep install",
+    "build:clean": "rm -rf dist output",
+    "docs:api": "gulp docs",
+    "book:clean": "rm -rf _book",
+    "book:prepare": "gitbook install",
+    "book:build": "npm run book:prepare && gitbook build -g alexmingoia/purescript-pux",
+    "book:watch": "npm run book:prepare && gitbook serve",
+    "book:publish": "npm run book:clean && npm run book:build && cd _book && git init && git commit --allow-empty -m 'Update book.' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'Update book.' && git push git@github.com:alexmingoia/purescript-pux gh-pages --force",
+    "build": "gulp build",
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "bower": "^1.7.2",
+    "gitbook-cli": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-jsvalidate": "^2.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-purescript": "^0.8.0",
+    "pulp": "^4.5.0",
+    "purescript": "^0.7.6",
+    "rimraf": "^2.4.1"
+  },
+  "name": "purescript-pux",
+  "version": "0.1.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexmingoia/purescript-pux.git"
+  },
+  "keywords": [
+    "purescript",
+    "react",
+    "elm",
+    "flux",
+    "redux",
+    "frp",
+    "virtual-dom"
+  ],
+  "author": "Alexander C. Mingoia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alexmingoia/purescript-pux/issues"
+  }
+}
